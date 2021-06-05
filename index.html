@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./main.css">
+	<title>Sign Up Form</title>
+</head>
+<body>
+	<form action="#">
+		<div>
+			<label for="f-name"> Nawi yakam :</label>
+			<input type="text" name="f-name" id="f-name">
+		</div>
+		<div>
+			<label for="s-name"> Nawi dwam :</label>
+			<input type="text" name="s-name" id="s-name">
+		</div>
+		<div>
+			<label for="age"> Taman :</label>
+			<input type="number" name="age" id="age">
+		</div>
+		<div>
+			<p>Ragaz</p>
+			<label for="male">Ner</label>
+			<input type="radio" class="gender" name="gender" value="ner">
+			<hr>
+			<label for="female">Me</label>
+			<input type="radio" class="gender" name="gender" value="Me">
+		</div>
+		<div>
+			<label for="student"> Xwendkar :</label>
+			<input type="checkbox" name="xwendkar" id="student">
+		</div>
+		<div>
+			<label for="city">Shar</label>
+			<select name="city" id="city">
+				<option value="...">Sharek Halbzhera....</option>
+				<option value="Sulaimani">Sulaimani</option>
+				<option value="Hewler">Hewler</option>
+				<option value="Duhok">Duhok</option>
+				<option value="Kirkuk">Kirkuk</option>
+			</select>
+		</div>
+		<button id="button">Tomarkdn</button>
+	</form>
+	<div id="infos">
+		<div>
+			<p>Naw:</p>
+			<p id="student-name"></p>
+		</div>
+		<div>
+			<p>Taman:</p>
+			<p id="student-age"></p>
+		</div>
+		<div>
+			<p>Ragaz:</p>
+			<p id="student-gender"></p>
+		</div>
+		<div>
+			<p>Esta Xwendkara ? </p>
+			<p id="is-student"></p>
+		</div>
+		<div>
+			<p>Shar:</p>
+			<p id="student-city"></p>
+		</div>
+	</div>
+	<script src="./main.js" type="text/javascript"></script>
+</body>
+</html>
